@@ -33,4 +33,13 @@
     width: 100%;
     padding: 1rem 2.125rem;
   }
+
+  h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  span {
+    color: #d6d6d6 
+  }
+
   </style>
