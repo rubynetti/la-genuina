@@ -1,77 +1,90 @@
-<h1>Albo</h1>
+<svelte:head>
+  <title>La Genuina - Albo d'Oro</title>
+</svelte:head>
 
-.card
-    .card-header 
-      strong Albo d'oro
-    table.table.mb-0
-      tr
-        th Stagione
-        th 1°
-        th 2°
-        th 3°
-        th 4°
-        th 5°
-        th Premio Sfiga
-        th Presidente
-        th Ricordi
-      tr
-        td 2019-20
-        td Ale - Aspettavamo l'alba
-        td Leo
-        td GP - San Marten
-        td Adri - Preferisco il tramonto
-        td
-        td Il Cura
-        td Fra
-        td
-          p 
-            | Ronaldo prima stagione alla Juve preso dal Cura.
-          p
-            | La meravigliosa stagione del trio Ilicic, Pasalic e De Paul.
-          p
-            | Ricordo di aver scelto un 50% dei giocatori in base alla faccia.
-          
-      tr
-        td 2020-21
-        td Gp - Basimeo
-        td Leo
-        td Fra?
-        td
-        td
-        td Ale
-        td Fra
-
-        td
-          | Gp che stravince con incredibile fantamedia e io che subisco più goal di tutti nonnostante una media da podio.
-      tr
-        td 2021-22
-        td Gp - Basetti par tutti
-        td Leo
-        td Ale - Aspettavamo l'alba
-        td
-        td
-        td Leo
-        td Fra
-        td Gp che supera all'ultima giornata Leo.
-      tr
-        td 2022-23
-        td Benja
-        td Ale - Ueueggiare
-        td Adri - Santa Croce Bigolina
-        td Leo / Gp - Basetti par tutti
-        td
-        td
-        td Fra
-        td
-          p Benja Campione.
-          p Ale campione d'inverno con una squadra orrenda ma incredibile (cmq avevo Frattesi ancora sconosciuto tra i miei pupilli).
-      tr
-        td 2023-24
-        td Matt - Masorina
-        td Adriano - Santa Croce Bigolina
-        td GP - That's What she said
-        td Leo - Beach Boys
-        td Ale - Ueueggiare
-        td Leo
-        td Fra
-        td I pianti di GP e la fantamedia di Leo superiore a tutti.
+<div class="card">
+  <div class="card-header">
+    <strong>Albo d'oro</strong>
+  </div>
+  <table class="table mb-0">
+    <tr>
+      <th> Stagione </th>
+      <th> 1° </th>
+      <th> 2° </th>
+      <th> 3° </th>
+      <th> 4° </th>
+      <th> 5° </th>
+      <th> Premio Sfiga </th>
+      <th> Presidente </th>
+      <th> Ricordi </th>
+    </tr>
+    <tr>
+      <td> 2019-20 </td>
+      <td> Ale - Aspettavamo l'alba </td>
+      <td> Leo </td>
+      <td> GP - San Marten </td>
+      <td> Adri - Preferisco il tramonto </td>
+      <td />
+      <td> Il Cura </td>
+      <td> Fra </td>
+      <td>
+        <p>Ronaldo prima stagione alla Juve preso dal Cura.</p>
+        <p>La meravigliosa stagione del trio Ilicic, Pasalic e De Paul.</p>
+        <p>Ricordo di aver scelto un 50% dei giocatori in base alla faccia.</p>
+      </td>
+    </tr>
+    <tr>
+      <td> 2020-21 </td>
+      <td> Gp - Basimeo </td>
+      <td> Leo </td>
+      <td> Fra? </td>
+      <td />
+      <td />
+      <td> Ale </td>
+      <td> Fra </td>
+      <td>
+        Gp che stravince con incredibile fantamedia e io che subisco più goal di
+        tutti nonnostante una media da podio.
+      </td>
+    </tr>
+    <tr>
+      <td> 2021-22 </td>
+      <td> Gp - Basetti par tutti </td>
+      <td> Leo </td>
+      <td> Ale - Aspettavamo l'alba </td>
+      <td />
+      <td />
+      <td> Leo </td>
+      <td> Fra </td>
+      <td> Gp che supera all'ultima giornata Leo. </td>
+    </tr>
+    <tr>
+      <td> 2022-23 </td>
+      <td> Benja </td>
+      <td> Ale - Ueueggiare </td>
+      <td> Adri - Santa Croce Bigolina </td>
+      <td> Leo / Gp - Basetti par tutti </td>
+      <td />
+      <td />
+      <td> Fra </td>
+      <td>
+        <p>Benja Campione.</p>
+        <p>
+          Ale campione d'inverno con una squadra orrenda ma incredibile (cmq
+          avevo Frattesi ancora sconosciuto tra i miei pupilli).
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td> 2023-24 </td>
+      <td> Matt - Masorina </td>
+      <td> Adriano - Santa Croce Bigolina </td>
+      <td> GP - That's What she said </td>
+      <td> Leo - Beach Boys </td>
+      <td> Ale - Ueueggiare </td>
+      <td> Leo </td>
+      <td> Fra </td>
+      <td> I pianti di GP e la fantamedia di Leo superiore a tutti. </td>
+    </tr>
+  </table>
+</div>
