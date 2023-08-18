@@ -4,8 +4,12 @@
 <div>
 <div class="row">
   <div class="col-lg-6">
-    <BigNews/>
-    
+    <BigNews
+      title="Il presidente ha in ostaggio le rose"
+      author="F. Brefoldi"
+      corner="Emergenza" 
+      date="18 Agosto"
+    />
   </div><!--.col-lg-6-->
 </div><!--.row-->
 

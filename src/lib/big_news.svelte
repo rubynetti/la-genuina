@@ -1,11 +1,19 @@
+<script>
+  export let title;
+  export let author;
+  export let date;
+  export let corner;
+</script>
+
 <figure>
+  <span>{{corner}}</span>
   <img alt="" 
       class="img-fluid"
       src="https://images2.gazzettaobjects.it/methode_image/2023/08/18/Calcio/Foto_Calcio/5be6d67a-3d94-11ee-9bab-8ddb4fa9b522_620x349.jpg?v=20230818085641" />  
 
   <figcaption class="text-white">
-    <h3 class="mb-0">Il presidente ha in ostaggio le rose</h3>
-    <span>F. Bertoldi 18 Agosto</span>
+    <h3 class="mb-0">{title}</h3>
+    <span>{author} {date}</span>
   </figcaption>
 </figure>
 
