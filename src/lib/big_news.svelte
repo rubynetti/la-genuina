@@ -3,21 +3,32 @@
   export let author;
   export let date;
   export let corner;
+  export let image;
 </script>
 
 <figure>
-  <span>{{corner}}</span>
+  <span class="corner">{corner}</span>
   <img alt="" 
       class="img-fluid"
-      src="https://images2.gazzettaobjects.it/methode_image/2023/08/18/Calcio/Foto_Calcio/5be6d67a-3d94-11ee-9bab-8ddb4fa9b522_620x349.jpg?v=20230818085641" />  
+      src="{image}" />  
 
   <figcaption class="text-white">
     <h3 class="mb-0">{title}</h3>
-    <span>{author} {date}</span>
+    <span>{author} · {date}</span>
   </figcaption>
 </figure>
 
 <style>
+  .corner {
+    background-color: orange;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    left: -10px;
+    top: -10px;
+    padding: 2px 5px;
+  }
   figure {
     position: relative;
   }
@@ -42,11 +53,11 @@
     padding: 1rem 2.125rem;
   }
 
-  h3 {
+  figure h3 {
     font-family: 'Roboto Condensed', sans-serif;
   }
 
-  span {
+  figure span {
     color: #d6d6d6 
   }
 
