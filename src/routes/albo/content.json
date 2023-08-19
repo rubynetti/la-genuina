@@ -3,7 +3,37 @@
     {
       "year": "2018-19",
       "winner": "Ale",
-      "claim": "Fatemi vedere le facce dei giocatori"
+      "claim": "Fatemi vedere le facce dei giocatori",
+      "rank": [
+        {
+          "mister": "Ale",
+          "team": "Aspettavamo l'alba"
+        },
+        {
+          "mister": "Leo"
+        },
+        {
+          "mister": "GP",
+          "team": "San Marten"
+        },
+        {
+          "mister": "Adri",
+          "team": "Preferisco il tramonto"
+        },
+        {
+          "mister": "Il Cura"
+        }
+      ],
+      "sfiga": {
+        "mister": "Il Cura",
+        "reason": "Miglior fantamedia ma solo quinto posto e maggior numero di gol subiti."
+      },
+      "presidente": "Fra",
+      "memories": [
+        "Ronaldo prima stagione alla Juve preso dal Cura grazie alla misteriosa strategia dei numerosi fogli.",
+        "La meravigliosa stagione del trio Ilicic, Pasalic e De Paul.",
+        "Ricordo di aver scelto un 50% dei giocatori in base alla faccia."
+      ]
     },
     {
       "year": "2019-20",
