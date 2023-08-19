@@ -6,7 +6,7 @@
   <div class="col"></div>
   <div class="col-lg-6">
     <BigNews
-      title="La prima lacrima"
+      title="La prima lacrima è per Tourè"
       author="F. Gallardi"
       corner="Tristezza" 
       date="19 Agosto"
