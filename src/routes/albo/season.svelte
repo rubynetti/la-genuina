@@ -21,6 +21,8 @@
       </div>
     </div>
   </div>
+  <div class="card-footer">
+    <div class="text-center"><em>{claim}</em></div>
+  </div>
 </div>
-<div class="text-center"><em>{claim}</em></div>
 </div>

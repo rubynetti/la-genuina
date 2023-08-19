@@ -1,15 +1,13 @@
-<tr>
-  <td> 2019-20 </td>
-  <td> Ale - Aspettavamo l'alba </td>
-  <td> Leo </td>
-  <td> GP - San Marten </td>
-  <td> Adri - Preferisco il tramonto </td>
-  <td />
-  <td> Il Cura </td>
-  <td> Fra </td>
-  <td>
-    <p>Ronaldo prima stagione alla Juve preso dal Cura.</p>
-    <p>La meravigliosa stagione del trio Ilicic, Pasalic e De Paul.</p>
-    <p>Ricordo di aver scelto un 50% dei giocatori in base alla faccia.</p>
-  </td>
-</tr>
+
+<p> 2019-20 </p>
+<p> Ale - Aspettavamo l'alba </p>
+<p> Leo </p>
+<p> GP - San Marten </p>
+<p> Adri - Preferisco il tramonto </p>
+<p />
+<p> Il Cura </p>
+<p> Fra </p>
+
+<p>Ronaldo prima stagione alla Juve preso dal Cura.</p>
+<p>La meravigliosa stagione del trio Ilicic, Pasalic e De Paul.</p>
+<p>Ricordo di aver scelto un 50% dei giocatori in base alla faccia.</p>
