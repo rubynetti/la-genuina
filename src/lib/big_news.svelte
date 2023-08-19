@@ -6,7 +6,7 @@
   export let image;
 </script>
 
-<figure>
+<figure class="mb-5">
   <span class="corner">{corner}</span>
   <img alt="" 
       class="img-fluid"
@@ -14,7 +14,7 @@
 
   <figcaption class="text-white">
     <h3 class="mb-0">{title}</h3>
-    <span>{author} · {date}</span>
+    <span class="roboto">{author} · {date}</span>
   </figcaption>
 </figure>
 

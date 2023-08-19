@@ -9,4 +9,5 @@
 <script>
   import Header from '$lib/header.svelte';
   import Menu from '$lib/menu.svelte';
+  import '../app.css'
 </script>

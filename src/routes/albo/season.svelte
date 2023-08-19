@@ -12,7 +12,7 @@
         {year}
       </div>
       <div class="col text-center">
-        {winner}
+        <strong>{winner}</strong>
       </div>
       <div class="col text-end">
         <a href="/albo/{year}" class="text-dark">
