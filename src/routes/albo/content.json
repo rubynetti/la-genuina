@@ -38,7 +38,30 @@
     {
       "year": "2019-20",
       "winner": "GP",
-      "claim": "Dove sono gli altri?"
+      "claim": "Dove sono gli altri?",
+      "rank": [
+        {
+          "mister": "GP",
+          "team": "Basimeo"
+        },
+        {
+          "mister": "Leo"
+        },
+        {
+          "mister": "Fra"
+        },
+        {
+          "mister": "Ale"
+        }
+      ],
+      "sfiga": {
+        "mister": "Ale",
+        "reason": "Seconda fantamedia ma solo quarto posto. Primo in gol subiti."
+      },
+      "presidente": "Fra",
+      "memories": [
+        "Gp che stravince con incredibile fantamedia e io che subisco più goal di tutti nonnostante una media da podio. Doloroso."
+      ]
     },
     {
       "year": "2020-21",
