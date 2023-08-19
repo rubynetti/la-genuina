@@ -69,33 +69,6 @@
       <td> Fra </td>
       <td> Gp che supera all'ultima giornata Leo. </td>
     </tr>
-    <tr>
-      <td> 2022-23 </td>
-      <td> Benja </td>
-      <td> Ale - Ueueggiare </td>
-      <td> Adri - Santa Croce Bigolina </td>
-      <td> Leo - San Donato / Gp - Basetti par tutti </td>
-      <td />
-      <td />
-      <td> Fra </td>
-      <td>
-        <p>Benja Campione.</p>
-        <p>
-          Ale campione d'inverno con una squadra orrenda ma incredibile (cmq
-          avevo Frattesi ancora sconosciuto tra i miei pupilli).
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td> 2023-24 </td>
-      <td> Matt - Masorina </td>
-      <td> Adriano - Santa Croce Bigolina </td>
-      <td> GP - That's What she said </td>
-      <td> Leo - Beach Boys </td>
-      <td> Ale - Ueueggiare </td>
-      <td> Leo </td>
-      <td> Fra </td>
-      <td> I pianti di GP e la fantamedia di Leo superiore a tutti. </td>
-    </tr>
+
   </table>
 </div>

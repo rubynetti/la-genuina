@@ -7,7 +7,7 @@
   <div class="col-lg-6">
     <h3>Classifica</h3>
     
-    <table>
+    <table class="mb-5">
       <tr>
         <td>1°</td>
         <td>Benja</td>
@@ -31,7 +31,7 @@
     </table>
     
     <h3>Ricordi</h3>
-    <p>Benja Campione.</p>
+    <p>Benja Campione del mondo.</p>
     <p>
       Ale campione d'inverno con una squadra orrenda ma incredibile (cmq
       avevo Frattesi ancora sconosciuto tra i miei pupilli).
