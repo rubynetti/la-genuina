@@ -11,7 +11,7 @@
       <div class="col">
         {year}
       </div>
-      <div class="col text-center">
+      <div class="col text-center" style="font-size: 2em">
         <strong>{winner}</strong>
       </div>
       <div class="col text-end">
