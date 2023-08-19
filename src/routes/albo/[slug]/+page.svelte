@@ -1,21 +1,16 @@
 <script>
-  export let data;
+export let data;
 </script>
-<h1>ciao sono dinamico</h1>
-<p>
-  {JSON.stringify(data)}
-</p>
-
-
 
 <svelte:head>
   <title>{data.year} - Albo d'oro</title>
 </svelte:head>
+
 <div style="position: relative" class="text-center mb-5">
-<h2 class="my-5 d-inline">2018-19 </h2>
+<h2 class="my-5 d-inline">{data.year}</h2>
 </div>
 <div class="mb-5">
-<h3 class="roboto-condensed">Classifica finale </h3>
+<h3 class="roboto-condensed">Classifica finale</h3>
 <ol class="p-0">
   {#each data.rank as data}
   <li>{data.mister} {#if data.team} · {data.team}{/if}</li>
