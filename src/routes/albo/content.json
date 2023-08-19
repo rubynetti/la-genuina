@@ -83,7 +83,10 @@
       "sfiga": {
         "mister": "Leo",
         "reason": "Superato all'ultima giornata da GP dopo un intero campionato al primo posto."
-      }
+      },
+      "memories": [
+        "Il culo di GP."
+      ]
     },
     {
       "year": "2021-22",
@@ -114,7 +117,12 @@
           "team": "Basetti per tutti"
         }
       ],
-      "presidente": "Fra"
+      "presidente": "Fra",
+
+      "memories": [
+        "Benja campione del mondo",
+        "Ale campione d'inverno con una squadra orrenda ma incredibile (cmq avevo Frattesi ancora sconosciuto tra i miei pupilli)"
+      ]
     },
     {
       "year": "2022-23",
@@ -122,9 +130,34 @@
       "claim": "Papere al comando!",
       "rank": [
         {
-          "mister": "Matt"
+          "mister": "Matt",
+          "team": "Masorina"
+        },
+        {
+          "mister": "Adri",
+          "team": "Santa Croce Bigolina"
+        },
+        {
+          "mister": "GP",
+          "team": "That's what she said"
+        },
+        {
+          "mister": "Leo",
+          "team": "Beach Boys"
+        },
+        {
+          "mister": "Ale",
+          "team": "Ueueggiare"
         }
-      ]
+      ],
+      "presidente": "Fra",
+      "memories": [
+        "Matt che vince con una squadra di papere; i pianti di GP e la fantamedia di Leo superiore a tutti."
+      ],
+      "sfiga": {
+        "mister": "Leo",
+        "reason": "Miglior fantamedia con Osimhen al massimo della forma; ma alla fine è solo un quarto posto."
+      }
     }
   ]
 }

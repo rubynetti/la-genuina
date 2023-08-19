@@ -9,6 +9,7 @@ export let data;
 <div style="position: relative" class="text-center mb-5">
 <h2 class="my-5 d-inline">{data.year}</h2>
 </div>
+
 <div class="mb-5">
 <h3 class="roboto-condensed">Classifica finale</h3>
 <ol class="p-0">
@@ -18,10 +19,13 @@ export let data;
 </ol>
 </div>
 
+{#if data.sfiga != undefined}
 <div class="mb-5">
 <h3 class="roboto-condensed">Premio Sfiga</h3>
-<p>{data.sfiga.mister} · {data.sfiga.reason}</p>
+<p>{data.sfiga?.mister} · {data.sfiga?.reason}</p>
 </div>
+{/if}
+
 
 <div class="mb-5">
 <h3 class="roboto-condensed">Presidente</h3>
@@ -35,6 +39,7 @@ export let data;
 <p>{data}</p>
 {/each}
 </div>
+
 <style>
   h2 {
     font-family: 'Ruwudu', sans-serif;
