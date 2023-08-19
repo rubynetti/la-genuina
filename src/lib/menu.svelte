@@ -5,3 +5,13 @@
   ·
   <a href="/albo" class="text-dark text-uppercase fw-bold">Albo d'Oro</a>
 </div>
+
+<style>
+  a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
