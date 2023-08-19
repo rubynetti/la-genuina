@@ -5,70 +5,8 @@
   <title>La Genuina - Albo d'Oro</title>
 </svelte:head>
 
-<Season year="2022-23" />
-<Season year="2021-22" />
-<Season year="2020-21" />
-<Season year="2019-20" />
-
-
-<div class="card">
-  <div class="card-header">
-    <strong>Albo d'oro</strong>
-  </div>
-
-
-  <table class="table mb-0">
-    <tr>
-      <th> Stagione </th>
-      <th> 1° </th>
-      <th> 2° </th>
-      <th> 3° </th>
-      <th> 4° </th>
-      <th> 5° </th>
-      <th> Premio Sfiga </th>
-      <th> Presidente </th>
-      <th> Ricordi </th>
-    </tr>
-    <tr>
-      <td> 2019-20 </td>
-      <td> Ale - Aspettavamo l'alba </td>
-      <td> Leo </td>
-      <td> GP - San Marten </td>
-      <td> Adri - Preferisco il tramonto </td>
-      <td />
-      <td> Il Cura </td>
-      <td> Fra </td>
-      <td>
-        <p>Ronaldo prima stagione alla Juve preso dal Cura.</p>
-        <p>La meravigliosa stagione del trio Ilicic, Pasalic e De Paul.</p>
-        <p>Ricordo di aver scelto un 50% dei giocatori in base alla faccia.</p>
-      </td>
-    </tr>
-    <tr>
-      <td> 2020-21 </td>
-      <td> Gp - Basimeo </td>
-      <td> Leo </td>
-      <td> Fra? </td>
-      <td />
-      <td />
-      <td> Ale </td>
-      <td> Fra </td>
-      <td>
-        Gp che stravince con incredibile fantamedia e io che subisco più goal di
-        tutti nonnostante una media da podio.
-      </td>
-    </tr>
-    <tr>
-      <td> 2021-22 </td>
-      <td> Gp - Basetti par tutti </td>
-      <td> Leo </td>
-      <td> Ale - Aspettavamo l'alba </td>
-      <td />
-      <td />
-      <td> Leo </td>
-      <td> Fra </td>
-      <td> Gp che supera all'ultima giornata Leo. </td>
-    </tr>
-
-  </table>
-</div>
+<Season year="2022-23" winner="Matt" claim="Papere al comando" />
+<Season year="2021-22" winner="Benja" claim="Ho vinto ma non ricordo come" />
+<Season year="2020-21" winner="GP" claim="Povero Leo" />
+<Season year="2019-20" winner="GP" claim="Dove sono gli altri?" />
+<Season year="2018-19" winner="Ale" claim="Fatemi vedere le facce dei giocatori" />
