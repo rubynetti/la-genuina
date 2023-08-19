@@ -66,17 +66,65 @@
     {
       "year": "2020-21",
       "winner": "GP",
-      "claim": "Povero Leo"
+      "claim": "Povero Leo",
+      "rank": [
+        {
+          "mister": "GP",
+          "team": "Basetti per tutti"
+        },
+        {
+          "mister": "Leo"
+        },
+        {
+          "mister": "Ale",
+          "team": "Aspettavamo l'alba"
+        }
+      ],
+      "sfiga": {
+        "mister": "Leo",
+        "reason": "Superato all'ultima giornata da GP dopo un intero campionato al primo posto."
+      },
     },
     {
       "year": "2021-22",
       "winner": "Benja",
-      "claim": "Ho vinto ma non ricordo come"
+      "claim": "Ho vinto ma non ricordo come",
+      "rank": [
+        {
+          "mister": "Benja",
+          "team": "Spara Juri"
+        },
+        {
+          "mister": "Matt",
+        },
+        {
+          "mister": "Ale",
+          "team": "Ueueggiare"
+        },
+        {
+          "mister": "Adri",
+          "team": "Santa Croce Bigolina"
+        },
+        {
+          "mister": "Leo",
+          "team": "San Donato"
+        },
+        {
+          "mister": "GP",
+          "team": "Basetti per tutti"
+        }
+      ],
+      "presidente": "Fra",
     },
     {
       "year": "2022-23",
       "winner": "Matt",
-      "claim": "Papere al comando e bonus difesa"
+      "claim": "Papere al comando!",
+      "rank": [
+        {
+          "mister": "Matt",
+        }
+      ]
     }
   ]
 }
