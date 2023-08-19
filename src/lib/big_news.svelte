@@ -10,6 +10,7 @@
   <span class="corner">{corner}</span>
   <img alt="" 
       class="img-fluid"
+      style="min-width: 100%;"
       src="{image}" />  
 
   <figcaption class="text-white">
