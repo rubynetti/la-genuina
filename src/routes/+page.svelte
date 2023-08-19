@@ -6,12 +6,21 @@
   <div class="col"></div>
   <div class="col-lg-6">
     <BigNews
+      title="La prima lacrima"
+      author="F. Gallardi"
+      corner="Tristezza" 
+      date="19 Agosto"
+      image="pianto-1.png"
+    />
+    <BigNews
       title="Il presidente ha in ostaggio le rose"
       author="F. Brefoldi"
       corner="Emergenza" 
       date="18 Agosto"
-      image="https://images2.gazzettaobjects.it/methode_image/2023/08/18/Calcio/Foto_Calcio/5be6d67a-3d94-11ee-9bab-8ddb4fa9b522_620x349.jpg?v=20230818085641"
+      image="cover-1.jpg"
     />
+
+
   </div><!--.col-lg-6-->
   <div class="col"></div>
 

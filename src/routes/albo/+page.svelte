@@ -1,11 +1,22 @@
+<script>
+  import Season from './season.svelte'
+</script>
 <svelte:head>
   <title>La Genuina - Albo d'Oro</title>
 </svelte:head>
+
+<Season year="2022-23" />
+<Season year="2021-22" />
+<Season year="2020-21" />
+<Season year="2019-20" />
+
 
 <div class="card">
   <div class="card-header">
     <strong>Albo d'oro</strong>
   </div>
+
+
   <table class="table mb-0">
     <tr>
       <th> Stagione </th>
@@ -63,7 +74,7 @@
       <td> Benja </td>
       <td> Ale - Ueueggiare </td>
       <td> Adri - Santa Croce Bigolina </td>
-      <td> Leo / Gp - Basetti par tutti </td>
+      <td> Leo - San Donato / Gp - Basetti par tutti </td>
       <td />
       <td />
       <td> Fra </td>

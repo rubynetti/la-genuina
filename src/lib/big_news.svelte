@@ -42,7 +42,7 @@
     height: 100%;
     content: "";
     pointer-events: none;
-    background-image: linear-gradient(180deg,transparent 60%,#000);
+    background-image: linear-gradient(180deg,transparent 10%,#000);
   }
   
   figcaption {
