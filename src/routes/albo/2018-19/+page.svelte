@@ -1,11 +1,11 @@
 <svelte:head>
   <title>2018-19 - Albo d'oro</title>
 </svelte:head>
-
-<h2 class="my-5">2018-19</h2>
-
+<div style="position: relative" class="text-center mb-5">
+<h2 class="my-5 d-inline">2018-19 </h2>
+</div>
 <div class="mb-5">
-<h3 class="roboto-condensed">Classifica finale</h3>
+<h3 class="roboto-condensed">Classifica finale </h3>
 <ol class="p-0">
 <li> Ale - Aspettavamo l'alba </li>
 <li> Leo </li>
@@ -35,9 +35,23 @@
 </div>
 <style>
   h2 {
-    text-align: center;
     font-family: 'Ruwudu', sans-serif;
   }
+  h2::before {
+    content: "꧁";
+    font-size: 1rem;
+    position: relative;
+    top: -13px;
+    left: -2px
+  }
+  h2::after {
+    content: "꧂";
+    font-size: 1rem;
+    position: relative;
+    top: -13px;
+    right: -2px
+  }
+
   h3 {
     font-size: 1rem;
     font-weight: bold;
