@@ -228,11 +228,11 @@
       ],
       "presidente": "Fra",
       "memories": [
-        "Matt che vince con una squadra di papere; i pianti di GP e la fantamedia di Leo superiore a tutti."
+        "Matt vince con una fantamedia da retrovie ma lo aiutano gli incroci. Di sicuro la vittoria più fortunata di sempre in termine di fortuna.."
       ],
       "sfiga": {
         "mister": "Leo",
-        "reason": "Miglior fantamedia con Osimhen al massimo della forma; ma alla fine è solo un quarto posto."
+        "reason": "Miglior fantamedia di nuovo ma nulla può contro gli incroci fortnutassimi di Papere al comando."
       }
     },
     {
@@ -242,16 +242,42 @@
       "rank": [
         {
           "mister": "Leo",
-          "team": "RB Ca Lezze"
+          "team": "RB Ca Lezze",
+          "score": 75
         },
         {
           "mister": "Falc",
-          "team": "Falciate e mazzate"
+          "team": "Falciate e mazzate",
+          "score": 59
+        },
+        {
+          "mister": "Daniele",
+          "team": "Me ne resterà soltanto uno",
+          "score": 54
+        },
+        {
+          "mister": "Adri",
+          "team": "Preferisco il tramonto",
+          "score": 53
+        },
+        {
+          "mister": "Gabriele",
+          "team": "Real Dramma",
+          "score": 50
+        },
+        {
+          "mister": "Ale",
+          "team": "Rostov in bigolina",
+          "score": 49
         }
       ],
+      "sfiga": {
+        "mister": "Ale",
+        "reason": "Fantamedia e goal segnati da terzo posto, viene relegato al sesto."
+      },
       "presidente": "GP",
       "memories": [
-        "Era dal 2018 che aspettavamo la vittoria di Leo. Finalmente è arrivata",
+        "Era dal 2018 che aspettavamo la vittoria di Leo. Finalmente è arrivata. Con 25 punti di distacco.",
         "Cambio del presidente. Francesco passa la carica a Giampietro."
       ]
     }
