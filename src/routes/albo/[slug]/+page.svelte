@@ -29,7 +29,7 @@ export let data;
 
 <div class="mb-5">
   <h3 class="roboto-condensed">Presidente</h3>
-  <p>Fra</p>
+  <p>{data.presidente}</p>
 </div>
 
 <div class="mb-5">
