@@ -195,7 +195,7 @@
           "score": 51
         },
         {
-          "mister": "Simonini / Ale / Professore",
+          "mister": "Ale",
           "team": "Volevamo ueueggiare",
           "score": 51
         },
@@ -234,6 +234,26 @@
         "mister": "Leo",
         "reason": "Miglior fantamedia con Osimhen al massimo della forma; ma alla fine è solo un quarto posto."
       }
+    },
+    {
+      "year": "2025-26",
+      "winner": "Leo",
+      "claim": "Il palmares parla chiaro",
+      "rank": [
+        {
+          "mister": "Leo",
+          "team": "RB Ca Lezze"
+        },
+        {
+          "mister": "Falc",
+          "team": "Falciate e mazzate"
+        }
+      ],
+      "presidente": "GP",
+      "memories": [
+        "Era dal 2018 che aspettavamo la vittoria di Leo. Finalmente è arrivata",
+        "Cambio del presidente. Francesco passa la carica a Giampietro."
+      ]
     }
   ]
 }
