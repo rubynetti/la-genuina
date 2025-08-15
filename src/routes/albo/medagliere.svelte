@@ -9,8 +9,8 @@
       const rank = season.rank || [];
       const sfigato = season.sfiga?.mister;
 
-      // Processa solo i primi 4 posti
-      rank.slice(0, 4).forEach((position, index) => {
+      // Processa solo i primi 6 posti
+      rank.slice(0, 6).forEach((position, index) => {
         const mister = position.mister;
 
         if (!misterStats[mister]) {
@@ -19,6 +19,8 @@
             argento: 0,
             bronzo: 0,
             quarto: 0,
+            quinto: 0,
+            sesto: 0,
             sfiga: 0
           };
         }
@@ -32,6 +34,10 @@
           misterStats[mister].bronzo++;
         } else if (index === 3) {
           misterStats[mister].quarto++;
+        } else if (index === 4) {
+          misterStats[mister].quinto++;
+        } else if (index === 5) {
+          misterStats[mister].sesto++;
         }
       });
 
@@ -43,6 +49,8 @@
             argento: 0,
             bronzo: 0,
             quarto: 0,
+            quinto: 0,
+            sesto: 0,
             sfiga: 0
           };
         }
@@ -50,7 +58,7 @@
       }
     });
 
-    // Converte in array e ordina per oro, argento, bronzo, quarto posto, infine sfiga
+    // Converte in array e ordina per oro, argento, bronzo, quarto, quinto, sesto posto, infine sfiga
     return Object.entries(misterStats)
       .map(([mister, stats]) => ({ mister, ...stats }))
       .sort((a, b) => {
@@ -58,6 +66,8 @@
         if (b.argento !== a.argento) return b.argento - a.argento;
         if (b.bronzo !== a.bronzo) return b.bronzo - a.bronzo;
         if (b.quarto !== a.quarto) return b.quarto - a.quarto;
+        if (b.quinto !== a.quinto) return b.quinto - a.quinto;
+        if (b.sesto !== a.sesto) return b.sesto - a.sesto;
         return b.sfiga - a.sfiga;
       });
   }
@@ -80,7 +90,9 @@
               <th scope="col" class="text-center">🥇 Oro</th>
               <th scope="col" class="text-center">🥈 Argento</th>
               <th scope="col" class="text-center">🥉 Bronzo</th>
-              <th scope="col" class="text-center"> 4°</th>
+              <th scope="col" class="text-center">4°</th>
+              <th scope="col" class="text-center">5°</th>
+              <th scope="col" class="text-center">6°</th>
               <th scope="col" class="text-center">💀 Sfiga</th>
             </tr>
           </thead>
@@ -110,6 +122,12 @@
                 </td>
                 <td class="text-center">
                   <span class="badge bg-light text-dark">{entry.quarto}</span>
+                </td>
+                <td class="text-center">
+                  <span class="badge bg-light text-muted">{entry.quinto}</span>
+                </td>
+                <td class="text-center">
+                  <span class="badge bg-light text-muted">{entry.sesto}</span>
                 </td>
                 <td class="text-center">
                   <span class="badge bg-danger">{entry.sfiga}</span>
