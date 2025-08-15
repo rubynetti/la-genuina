@@ -7,6 +7,7 @@
 
     seasons.forEach(season => {
       const rank = season.rank || [];
+      const sfigato = season.sfiga?.mister;
 
       // Processa solo i primi 4 posti
       rank.slice(0, 4).forEach((position, index) => {
@@ -17,7 +18,8 @@
             oro: 0,
             argento: 0,
             bronzo: 0,
-            quarto: 0
+            quarto: 0,
+            sfiga: 0
           };
         }
 
@@ -32,20 +34,36 @@
           misterStats[mister].quarto++;
         }
       });
+
+      // Aggiunge il premio sfiga
+      if (sfigato) {
+        if (!misterStats[sfigato]) {
+          misterStats[sfigato] = {
+            oro: 0,
+            argento: 0,
+            bronzo: 0,
+            quarto: 0,
+            sfiga: 0
+          };
+        }
+        misterStats[sfigato].sfiga++;
+      }
     });
 
-    // Converte in array e ordina per oro, argento, bronzo, quarto posto
+    // Converte in array e ordina per oro, argento, bronzo, quarto posto, infine sfiga
     return Object.entries(misterStats)
       .map(([mister, stats]) => ({ mister, ...stats }))
       .sort((a, b) => {
         if (b.oro !== a.oro) return b.oro - a.oro;
         if (b.argento !== a.argento) return b.argento - a.argento;
         if (b.bronzo !== a.bronzo) return b.bronzo - a.bronzo;
-        return b.quarto - a.quarto;
+        if (b.quarto !== a.quarto) return b.quarto - a.quarto;
+        return b.sfiga - a.sfiga;
       });
   }
 
   $: medagliere = calculateMedagliere(seasons);
+  $: reDellaSfiga = [...medagliere].sort((a, b) => b.sfiga - a.sfiga)[0];
 </script>
 
 <div class="mb-4">
@@ -62,7 +80,8 @@
               <th scope="col" class="text-center">🥇 Oro</th>
               <th scope="col" class="text-center">🥈 Argento</th>
               <th scope="col" class="text-center">🥉 Bronzo</th>
-              <th scope="col" class="text-center">4°</th>
+              <th scope="col" class="text-center">🏅 4°</th>
+              <th scope="col" class="text-center">💀 Sfiga</th>
             </tr>
           </thead>
           <tbody>
@@ -92,6 +111,9 @@
                 <td class="text-center">
                   <span class="badge bg-light text-dark">{entry.quarto}</span>
                 </td>
+                <td class="text-center">
+                  <span class="badge bg-danger">{entry.sfiga}</span>
+                </td>
               </tr>
             {/each}
           </tbody>
@@ -106,23 +128,31 @@
         <div class="card-body">
           <h5 class="card-title">📊 Statistiche Generali</h5>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="text-center">
                 <h6>Stagioni Totali</h6>
                 <span class="badge bg-info fs-6">{seasons.length}</span>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="text-center">
                 <h6>Mister nel Medagliere</h6>
                 <span class="badge bg-info fs-6">{medagliere.length}</span>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="text-center">
                 <h6>Re del Fantacalcio</h6>
                 <span class="badge bg-warning text-dark fs-6">
                   {medagliere[0]?.mister} ({medagliere[0]?.oro} 🥇)
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <h6>Re della Sfiga</h6>
+                <span class="badge bg-danger fs-6">
+                  {reDellaSfiga?.mister} ({reDellaSfiga?.sfiga} 💀)
                 </span>
               </div>
             </div>
