@@ -5,7 +5,7 @@ export let data;
 <svelte:head>
   <title>{data.year} - Albo d'oro</title>
   <meta name="description" content="Stagione {data.year} de La Genuina. Vincitore: {data.winner}. Scopri classifica, ricordi e il premio sfiga di questa stagione del fantacalcio più autentico d'Italia." />
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://genuina.rubynetti.it/albo/{data.year}" />
@@ -13,7 +13,7 @@ export let data;
   <meta property="og:description" content="Stagione {data.year}: {data.claim} - Vincitore: {data.winner}. Scopri tutti i dettagli di questa stagione del fantacalcio più autentico d'Italia." />
   <meta property="og:site_name" content="La Genuina" />
   <meta property="og:locale" content="it_IT" />
-  
+
   <!-- Twitter -->
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:url" content="https://genuina.rubynetti.it/albo/{data.year}" />
@@ -28,7 +28,7 @@ export let data;
 
 <div class="mb-5">
   <h3 class="roboto-condensed">Classifica finale</h3>
-  <ol class="p-0">
+  <ol class="p-0 ps-3">
     {#each data.rank as data}
     <li>{data.mister} {#if data.team} · {data.team}{/if}</li>
     {/each}
