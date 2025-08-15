@@ -87,10 +87,10 @@
                   <span class="badge bg-secondary">{entry.argento}</span>
                 </td>
                 <td class="text-center">
-                  <span class="badge bg-success">{entry.bronzo}</span>
+                  <span class="badge badge-bronzo">{entry.bronzo}</span>
                 </td>
                 <td class="text-center">
-                  <span class="badge bg-primary">{entry.quarto}</span>
+                  <span class="badge bg-light text-dark">{entry.quarto}</span>
                 </td>
               </tr>
             {/each}
@@ -140,6 +140,11 @@
 
   .badge {
     font-size: 0.9em;
+  }
+
+  .badge-bronzo {
+    background-color: #cd7f32;
+    color: white;
   }
 
   .table-warning {
