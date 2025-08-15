@@ -4,6 +4,22 @@ export let data;
 
 <svelte:head>
   <title>{data.year} - Albo d'oro</title>
+  <meta name="description" content="Stagione {data.year} de La Genuina. Vincitore: {data.winner}. Scopri classifica, ricordi e il premio sfiga di questa stagione del fantacalcio più autentico d'Italia." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://genuina.rubynetti.it/albo/{data.year}" />
+  <meta property="og:title" content="🏆 Stagione {data.year} - Vincitore: {data.winner} | La Genuina" />
+  <meta property="og:description" content="Stagione {data.year}: {data.claim} - Vincitore: {data.winner}. Scopri tutti i dettagli di questa stagione del fantacalcio più autentico d'Italia." />
+  <meta property="og:site_name" content="La Genuina" />
+  <meta property="og:locale" content="it_IT" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:url" content="https://genuina.rubynetti.it/albo/{data.year}" />
+  <meta property="twitter:title" content="🏆 Stagione {data.year} - Vincitore: {data.winner} | La Genuina" />
+  <meta property="twitter:description" content="Stagione {data.year}: {data.claim} - Vincitore: {data.winner}. Scopri tutti i dettagli di questa stagione del fantacalcio più autentico d'Italia." />
+  <meta property="twitter:image" content="https://genuina.rubynetti.it/cover-1.jpg" />
 </svelte:head>
 
 <div style="position: relative" class="text-center mb-5">
