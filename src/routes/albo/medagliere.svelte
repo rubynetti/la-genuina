@@ -80,7 +80,7 @@
               <th scope="col" class="text-center">🥇 Oro</th>
               <th scope="col" class="text-center">🥈 Argento</th>
               <th scope="col" class="text-center">🥉 Bronzo</th>
-              <th scope="col" class="text-center">🏅 4°</th>
+              <th scope="col" class="text-center"> 4°</th>
               <th scope="col" class="text-center">💀 Sfiga</th>
             </tr>
           </thead>
