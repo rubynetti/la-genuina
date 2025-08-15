@@ -16,8 +16,8 @@
 <div class="mt-5">
   <h2 class="text-center mb-4">📅 Stagioni per Anno</h2>
   {#each seasons as season(season.year)}
-    <Season year={season.year} 
-            claim={season.claim} 
+    <Season year={season.year}
+            claim={season.claim}
             winner={season.winner} />
   {/each}
 </div>
