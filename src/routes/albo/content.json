@@ -36,10 +36,10 @@
       ]
     },
     {
-      "year": "2020-21",
+    "year": "2020-21",
   "winner": "GP",
   "claim": "Dove sono gli altri?",
-  "image": "/2020-21-premi.jpeg",
+  "images": ["/2020-21-premi.jpeg"],
       "rank": [
         {
           "mister": "GP",
@@ -65,10 +65,10 @@
       ]
     },
     {
-      "year": "2021-22",
-      "winner": "GP",
-      "claim": "Povero Leo",
-      "image": "/2021-22-premi.jpeg",
+  "year": "2021-22",
+  "winner": "GP",
+  "claim": "Povero Leo",
+  "images": [],
       "rank": [
         {
           "mister": "GP",
@@ -130,7 +130,11 @@
       "year": "2023-24",
       "winner": "Matt",
       "claim": "Papere al comando! 🦆",
-      "image": "/2023-24-premi.jpeg",
+      "images": [
+        "/2023-24-premi-1.png",
+        "/2023-24-premi-2.png",
+        "/2023-24-premi-3.jpeg"
+      ],
       "rank": [
         {
           "mister": "Matt",
@@ -163,9 +167,10 @@
       }
     },
     {
-      "year": "2024-25",
-      "winner": "Matt",
-      "claim": "ANCORA Papere al comando! 🦆",
+  "year": "2024-25",
+  "winner": "Matt",
+  "claim": "ANCORA Papere al comando! 🦆",
+  "images": ["/2024-25-premi.jpeg"],
       "rank": [
         {
           "mister": "Matt",

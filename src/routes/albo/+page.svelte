@@ -34,6 +34,6 @@
   <Season year={season.year}
       claim={season.claim}
       winner={season.winner}
-      image={season.image} />
+      images={season.images} />
   {/each}
 </div>
