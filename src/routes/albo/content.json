@@ -68,6 +68,7 @@
       "year": "2021-22",
       "winner": "GP",
       "claim": "Povero Leo",
+      "image": "/2021-22-premi.jpeg",
       "rank": [
         {
           "mister": "GP",
@@ -127,9 +128,9 @@
     },
     {
       "year": "2023-24",
-  "winner": "Matt",
-  "claim": "Papere al comando! 🦆",
-  "image": "/2023-24-premi.jpeg",
+      "winner": "Matt",
+      "claim": "Papere al comando! 🦆",
+      "image": "/2023-24-premi.jpeg",
       "rank": [
         {
           "mister": "Matt",
