@@ -2,6 +2,8 @@
   export let year
   export let winner
   export let claim
+
+  let showImage = true;
 </script>
 
 <div class="mb-4">
@@ -20,6 +22,11 @@
         </a>
       </div>
     </div>
+    {#if showImage}
+      <div class="text-center mt-3">
+        <img src={`/${year}-premi.jpeg`} alt={`Premi stagione ${year}`} style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px #0002;" on:error={() => showImage = false} />
+      </div>
+    {/if}
   </div>
   <div class="card-footer">
     <div class="text-center"><em>{claim}</em></div>

@@ -37,8 +37,9 @@
     },
     {
       "year": "2020-21",
-      "winner": "GP",
-      "claim": "Dove sono gli altri?",
+  "winner": "GP",
+  "claim": "Dove sono gli altri?",
+  "image": "/2020-21-premi.jpeg",
       "rank": [
         {
           "mister": "GP",
@@ -126,8 +127,9 @@
     },
     {
       "year": "2023-24",
-      "winner": "Matt",
-      "claim": "Papere al comando! 🦆",
+  "winner": "Matt",
+  "claim": "Papere al comando! 🦆",
+  "image": "/2023-24-premi.jpeg",
       "rank": [
         {
           "mister": "Matt",
