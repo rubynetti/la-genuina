@@ -3,7 +3,7 @@
   export let winner
   export let claim
 
-  let showImage = true;
+    export let image;
 </script>
 
 <div class="mb-4">
@@ -22,9 +22,9 @@
         </a>
       </div>
     </div>
-    {#if showImage}
+    {#if image}
       <div class="text-center mt-3">
-        <img src={`/${year}-premi.jpeg`} alt={`Premi stagione ${year}`} style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px #0002;" on:error={() => showImage = false} />
+        <img src={image} alt={`Premi stagione ${year}`} style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px #0002;" />
       </div>
     {/if}
   </div>
