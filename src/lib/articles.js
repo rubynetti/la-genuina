@@ -1,9 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 /**
  * Parse frontmatter from markdown content
@@ -36,33 +32,38 @@ function parseFrontmatter(content) {
  * Get all articles from the content directory
  */
 export async function getArticles() {
-  const articlesDir = path.join(__dirname, '../../content/articles');
+  try {
+    // Use process.cwd() to get the root directory
+    const articlesDir = path.join(process.cwd(), 'src/content/articles');
 
-  if (!fs.existsSync(articlesDir)) {
+    if (!fs.existsSync(articlesDir)) {
+      return [];
+    }
+
+    const files = fs.readdirSync(articlesDir).filter(file => file.endsWith('.md'));
+
+    const articles = files.map(file => {
+      const filePath = path.join(articlesDir, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+      const { metadata, content: markdownContent } = parseFrontmatter(content);
+
+      return {
+        slug: metadata.slug || file.replace('.md', ''),
+        title: metadata.title || 'Untitled',
+        author: metadata.author || 'Unknown',
+        date: metadata.date || new Date().toISOString().split('T')[0],
+        corner: metadata.corner || 'News',
+        image: metadata.image || '/default-image.jpg',
+        excerpt: metadata.excerpt || '',
+        content: markdownContent
+      };
+    });
+
+    // Sort by date (most recent first)
+    return articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+  } catch (error) {
     return [];
   }
-
-  const files = fs.readdirSync(articlesDir).filter(file => file.endsWith('.md'));
-
-  const articles = files.map(file => {
-    const filePath = path.join(articlesDir, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const { metadata, content: markdownContent } = parseFrontmatter(content);
-
-    return {
-      slug: metadata.slug || file.replace('.md', ''),
-      title: metadata.title || 'Untitled',
-      author: metadata.author || 'Unknown',
-      date: metadata.date || new Date().toISOString().split('T')[0],
-      corner: metadata.corner || 'News',
-      image: metadata.image || '/default-image.jpg',
-      excerpt: metadata.excerpt || '',
-      content: markdownContent
-    };
-  });
-
-  // Sort by date (most recent first)
-  return articles.sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
 /**
