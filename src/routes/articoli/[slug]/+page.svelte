@@ -63,7 +63,7 @@
   </article>
 
   <div class="article-actions mt-5">
-    <a href="/" class="btn btn-outline-primary">← Torna alla home</a>
+    <a href="/" class="btn btn-outline-dark">← Torna alla home</a>
   </div>
 </div>
 
@@ -149,13 +149,13 @@
 
   .article-content :global(h1) {
     font-size: 2rem;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
   }
 
   .article-content :global(h2) {
     font-size: 1.6rem;
-    color: #007bff;
+    color: #333;
   }
 
   .article-content :global(h3) {
@@ -167,7 +167,7 @@
   }
 
   .article-content :global(blockquote) {
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #333;
     padding-left: 1rem;
     margin: 1.5rem 0;
     font-style: italic;
