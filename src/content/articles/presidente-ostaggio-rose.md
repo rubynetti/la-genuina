@@ -28,7 +28,7 @@ Secondo alcune indiscrezioni, il blocco sarebbe dovuto a:
 
 I membri della lega non hanno preso bene questa decisione:
 
-> "È inaccettabile che si arrivi a questo punto. Abbiamo tutti pagato la quota e vogliamo giocare!" - commenta uno dei partecipanti più arrabbiati.
+> "È inaccettabile che si arrivi a questo punto. Vogliamo giocare!" - commenta uno dei partecipanti più arrabbiati che ha voluto rimanre anonimo.
 
 La tensione è palpabile e molti minacciano di abbandonare la lega se la situazione non si risolve al più presto.
 
