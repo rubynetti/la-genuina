@@ -1,7 +1,7 @@
 {
   "seasons": [
     {
-      "year": "2018-19",
+      "year": "2019-20",
       "winner": "Ale",
       "claim": "Fatemi vedere le facce dei giocatori",
       "rank": [
@@ -36,9 +36,10 @@
       ]
     },
     {
-      "year": "2019-20",
+      "year": "2020-21",
       "winner": "GP",
       "claim": "Dove sono gli altri?",
+      "images": ["/2020-21-premi.jpeg"],
       "rank": [
         {
           "mister": "GP",
@@ -64,9 +65,11 @@
       ]
     },
     {
-      "year": "2020-21",
+      "year": "2021-22",
       "winner": "GP",
       "claim": "Povero Leo",
+      "presidente": "Fra",
+      "images": [],
       "rank": [
         {
           "mister": "GP",
@@ -89,7 +92,7 @@
       ]
     },
     {
-      "year": "2021-22",
+      "year": "2022-23",
       "winner": "Benja",
       "claim": "Ho vinto ma non ricordo come",
       "rank": [
@@ -125,9 +128,14 @@
       ]
     },
     {
-      "year": "2022-23",
+      "year": "2023-24",
       "winner": "Matt",
       "claim": "Papere al comando! 🦆",
+      "images": [
+        "/2023-24-premi-1.png",
+        "/2023-24-premi-2.png",
+        "/2023-24-premi-3.jpeg"
+      ],
       "rank": [
         {
           "mister": "Matt",
@@ -163,6 +171,7 @@
       "year": "2024-25",
       "winner": "Matt",
       "claim": "ANCORA Papere al comando! 🦆",
+      "images": ["/2024-25-premi.jpeg"],
       "rank": [
         {
           "mister": "Matt",
@@ -239,6 +248,7 @@
       "year": "2025-26",
       "winner": "Leo",
       "claim": "Il palmares parla chiaro",
+      "presidente": "GP",
       "rank": [
         {
           "mister": "Leo",
@@ -305,7 +315,6 @@
         "mister": "Ale",
         "reason": "Fantamedia e goal segnati da terzo posto, viene relegato al sesto."
       },
-      "presidente": "GP",
       "memories": [
         "Era dal 2018 che aspettavamo la vittoria di Leo. Finalmente è arrivata. Con 25 punti di distacco.",
         "Cambio del presidente. Francesco passa la carica a Giampietro."
