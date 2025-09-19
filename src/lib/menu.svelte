@@ -1,6 +1,8 @@
 <div class="mb-5 text-center">
-  <a href="/" 
+  <a href="/"
       class="text-dark text-uppercase fw-bold roboto-condensed">Home</a>
+  ·
+  <a href="/articoli" class="roboto-condensed text-dark text-uppercase fw-bold">Articoli</a>
   <div class="d-none">·</div>
   <div class="d-none"><a href="/la-genuina" class="text-dark text-uppercase fw-bold">Archivio</a></div>
   ·

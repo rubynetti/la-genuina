@@ -17,28 +17,33 @@
   <meta property="twitter:description" content="La Genuina - Il fantacalcio più autentico d'Italia. Scopri l'albo d'oro, le news e tutte le storie della nostra lega." />
 </svelte:head>
 
-<BigNews
-  title="Lacrime ben spese per Basetti"
-  author="F. Gallardi"
-  corner="Vittoria sicura"
-  date="19 Agosto"
-  image="https://dimages2.gazzettaobjects.it/files/image_458_275/uploads/2023/08/19/64e106c3cbba1.jpeg"
-/>
-<BigNews
-  title="La prima lacrima è per Tourè"
-  author="F. Gallardi"
-  corner="Tristezza"
-  date="19 Agosto"
-  image="pianto-1.png"
-/>
-<BigNews
-  title="Il presidente ha in ostaggio le rose"
-  author="F. Brefoldi"
-  corner="Emergenza"
-  date="18 Agosto"
-  image="cover-1.jpg"
-/>
+{#each data.articles as article}
+  <a href="/articoli/{article.slug}" class="article-link">
+    <BigNews
+      title={article.title}
+      author={article.author}
+      corner={article.corner}
+      date={article.date}
+      image={article.image}
+    />
+  </a>
+{/each}
 
 <script>
   import BigNews from "$lib/big_news.svelte";
+
+  export let data;
 </script>
+
+<style>
+  .article-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .article-link:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
