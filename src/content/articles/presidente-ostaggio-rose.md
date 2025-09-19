@@ -3,7 +3,7 @@ title: "Il presidente ha in ostaggio le rose"
 author: "F. Brefoldi"
 date: "2024-08-18"
 corner: "Emergenza"
-image: "cover-1.jpg"
+image: "/cover-1.jpg"
 slug: "presidente-ostaggio-rose"
 excerpt: "Una situazione di stallo che mette in difficoltà tutti i partecipanti alla lega"
 ---
