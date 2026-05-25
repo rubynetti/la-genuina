@@ -60,14 +60,14 @@ export let data;
     font-family: 'Ruwudu', sans-serif;
   }
   h2::before {
-    content: "꧁";
+    content: "❦";
     font-size: 1rem;
     position: relative;
     top: -13px;
     left: -2px
   }
   h2::after {
-    content: "꧂";
+    content: "❦";
     font-size: 1rem;
     position: relative;
     top: -13px;
