@@ -11,6 +11,8 @@
 		"@sveltejs/adapter-auto": "^6.1.0",
 		"@sveltejs/adapter-static": "^3.0.9",
 		"@sveltejs/kit": "^2.42.2",
+		"gray-matter": "^4.0.3",
+		"marked": "^18.0.4",
 		"svelte": "^5.39.2",
 		"vite": "^7.1.6"
 	},

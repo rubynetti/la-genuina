@@ -17,7 +17,7 @@
   <meta property="twitter:description" content="La Genuina - Il fantacalcio più autentico d'Italia. Scopri l'albo d'oro, le news e tutte le storie della nostra lega." />
 </svelte:head>
 
-{#each news as item (item.slug)}
+{#each data.news as item (item.slug)}
   <a href="/news/{item.slug}" class="news-link">
     <BigNews
       title={item.title}
@@ -31,8 +31,7 @@
 
 <script>
   import BigNews from "$lib/big_news.svelte";
-  import content from "./news/content.json";
-  const news = content.news;
+  export let data;
 </script>
 
 <style>

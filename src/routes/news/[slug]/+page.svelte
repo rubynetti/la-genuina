@@ -29,9 +29,7 @@
   <p class="roboto text-muted mb-4">{data.author} · {data.date}</p>
 
   {#if data.body}
-    {#each data.body.split('\n\n') as paragraph}
-      <p>{paragraph}</p>
-    {/each}
+    <div class="news-body">{@html data.body}</div>
   {:else}
     <p class="text-muted"><em>Articolo in arrivo.</em></p>
   {/if}
