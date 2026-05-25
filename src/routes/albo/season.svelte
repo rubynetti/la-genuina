@@ -23,11 +23,11 @@
       </div>
     </div>
     {#if images && images.length}
-      <div class="text-center mt-3">
+      <a href="/albo/{year}" class="thumbs">
         {#each images as img}
-          <img src={img} alt={`Premi stagione ${year}`} style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px #0002;margin-bottom:1rem;" />
+          <img src={img} alt={`Premi stagione ${year}`} />
         {/each}
-      </div>
+      </a>
     {/if}
   </div>
   <div class="card-footer">
@@ -35,3 +35,25 @@
   </div>
 </div>
 </div>
+
+<style>
+  .thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 0.75rem;
+  }
+  .thumbs img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .thumbs:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+</style>

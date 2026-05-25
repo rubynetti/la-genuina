@@ -26,6 +26,14 @@ export let data;
   <h2 class="my-5 d-inline">{data.year}</h2>
 </div>
 
+{#if data.images && data.images.length}
+<div class="mb-5 text-center">
+  {#each data.images as img}
+    <img src={img} alt={`Premi stagione ${data.year}`} class="season-image" />
+  {/each}
+</div>
+{/if}
+
 <div class="mb-5">
   <h3 class="roboto-condensed">Classifica finale</h3>
   <ol class="p-0 ps-3">
@@ -79,5 +87,13 @@ export let data;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px solid #000;
+  }
+
+  .season-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1rem;
   }
 </style>
