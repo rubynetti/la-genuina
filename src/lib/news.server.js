@@ -1,5 +1,4 @@
-import matter from 'gray-matter';
-import { marked } from 'marked';
+import { parseMarkdownFiles } from './markdown.server.js';
 
 const files = import.meta.glob('../routes/news/posts/*.md', {
   query: '?raw',
@@ -22,20 +21,12 @@ function parseDate(value) {
   return new Date(Number(year), m, Number(day)).getTime();
 }
 
-const posts = Object.entries(files).map(([path, raw]) => {
-  const slug = path.split('/').pop().replace(/\.md$/, '');
-  const { data, content } = matter(raw);
-  return {
-    slug,
-    ...data,
-    body: marked.parse(content.trim()),
-    _sort: parseDate(data.date),
-  };
-});
+const posts = parseMarkdownFiles(files)
+  .map((p) => ({ ...p, _sort: parseDate(p.date) }))
+  .sort((a, b) => b._sort - a._sort)
+  .map(({ _sort, ...rest }) => rest);
 
-posts.sort((a, b) => b._sort - a._sort);
-
-export const allNews = posts.map(({ _sort, ...rest }) => rest);
+export const allNews = posts;
 
 export function getNews(slug) {
   return allNews.find((n) => n.slug === slug);

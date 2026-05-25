@@ -48,12 +48,12 @@ export let data;
   <p>{data.presidente}</p>
 </div>
 
+{#if data.body}
 <div class="mb-5">
   <h3 class="roboto-condensed">Ricordi</h3>
-  {#each data.memories as data}
-  <p>{data}</p>
-  {/each}
+  <div class="memories">{@html data.body}</div>
 </div>
+{/if}
 
 <style>
   h2 {
